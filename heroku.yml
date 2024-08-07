@@ -1,6 +1,5 @@
- #heroku.yml file data to run Container
- build:
+build:
    docker:
-       web: Dockerfile 
+       web: Dockerfile
  run:
    web: npm start
